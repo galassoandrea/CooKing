@@ -1,0 +1,133 @@
+body {
+  font-family: 'Merriweather', serif;
+  background: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 180px 0 220px 0;
+}
+
+.register-wrapper {
+  margin: auto;
+  background-color: white;
+  border: solid 3px #F2AC29;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-wrapper {
+  margin: auto;
+  background-color: white;
+  border: solid 3px #F2AC29;
+  width: 25%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.data-container,
+.photo-container {
+  width: 50%;
+}
+
+.photo-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.form-legend {
+  font-family: 'Quicksand', sans-serif;
+  color: #F2AC29;
+  font-size: 2rem;
+  text-align: center;
+  margin: 10px;
+}
+
+.input-rg {
+  width: 80%;
+  margin: 5px 0;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  display: block;
+}
+
+.input-lg {
+  width: 90%;
+  margin: 5px 0;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  display: block;
+}
+
+.file-upload {
+  display: none;
+}
+
+.custom-file-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: black;
+}
+
+#target {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 10px auto;
+  border: solid 2px;
+}
+
+.empty {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.submit-btn {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #F2AC29;
+  border: none;
+  width: 98%;
+  margin: 20px auto;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.login-link,
+.register-link {
+  text-align: center;
+  color: black;
+}
+
+.submit-btn:hover,
+.login-btn:hover,
+.register-btn:hover {
+  background-color: #F27979;
+}
+
+.warning {
+  color: red;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}

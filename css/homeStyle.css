@@ -1,9 +1,3 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Merriweather', serif;
   color: #F2F0D0;
@@ -14,189 +8,96 @@ button {
   cursor: pointer;
 }
 
-#header {
-  text-align: center;
-  padding: 200px 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background2.jfif");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#body {
-  padding: 60px 80px;
-  background-color: #F2F0D0;
-  color: #000000;
-  text-align: center;
-}
-
-#footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background2.jfif");
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center;
-  padding: 280px 0;
-}
-
-#copyright {
-  background-color: #F2F0D0;
-  text-align: center;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  background-color: #F2F0D0;
-  font-family: 'Quicksand', sans-serif;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 99;
-  border-bottom: solid #F2AC29;
-}
-
-.navlinks {
-  width: 300px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.navlink {
-  font-size: 1.2rem;
-  text-decoration: none;
-  color: #000000;
-}
-
-.navlink:hover {
-  color: #F2AC29;
-}
-
-.logo {
-  width: 100px;
-}
-
-.nav-btns {
-  display: flex;
-  justify-content: space-between;
-  width: 180px;
-}
-
-.nav-btn {
-  color: #000000;
-  font-size: 1.2rem;
-  padding: 7px 10px;
-  background-color: #F2AC29;
-  border-radius: 10px;
-  border: none;
-}
-
-.nav-btn:hover , .big-button:hover {
+.big-button:hover {
   background-color: #F27979;
 }
 
-.big-logo {
-  width: 25%;
-}
-
-.subtitle {
-  margin: 0 0 50px 0;
-}
-
-.big-button {
-  font-size: 2rem;
-  color: #000000;
-  text-decoration: none;
-  background-color: #F2AC29;
+.post {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  overflow: auto;
+  padding: 20px 20px;
   border-radius: 10px;
-  padding: 10px 30px;
+  width: 95%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.intro {
   font-family: 'Quicksand', sans-serif;
-}
-
-.function-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 80px;
-}
-
-.function-item {
-  margin: 10px 0;
-}
-
-.function-title {
   font-size: 1.5rem;
   color: #F27979;
-}
-
-.function-par {
-  font-size: 1.2rem;
-}
-
-.food-img {
-  width: 70%;
-  margin-top: 40px;
-}
-
-.share-img {
-  width: 55%;
-}
-
-.like-img {
-  width: 65%;
+  margin-bottom: 20px;
 }
 
 .separator {
-  border: dotted 7px #F2AC29;
-  border-bottom: none;
-  background-color: #F2F0D0;
-  width: 10%;
-  margin: 120px auto;
+  width: 100%;
+  border-top: 2px solid #F2AC29;
+  margin-bottom: 20px;
 }
 
-.comments {
-  color: #F27979;
-  font-size: 1.8rem;
-  margin-bottom: 80px;
+.title {
+  font-size: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  resize: none;
 }
 
-.comment-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 80px;
-  text-align: center;
-  margin-bottom: 40px;
+.description {
+  font-size: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  margin: 10px 0 20px 0;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  resize: none;
 }
 
-.comment-card {
+.description:focus {
+  height: 200px;
+}
+
+.file-upload {
+  display: none;
+}
+
+.custom-file-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: black;
+  margin-bottom: 20px;
+}
+
+#target {
+  display: block;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.submit {
+  display: block;
+  font-size: 1.2rem;
+  margin: auto;
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 10px;
   background-color: #F2AC29;
-  width: 260px;
-  padding: 20px;
-  border-radius: 15px;
-  margin: 0 auto;
+  border: none;
+  cursor: pointer;
 }
 
-.user-image {
-  width: 35%;
-  margin-bottom: 10px;
+.submit:hover {
+  background-color: #F27979;
 }
 
-.footer-heading {
-  font-size: 2rem;
-  color: #F27979;
-  margin-bottom: 30px;
-}
-
-.username {
-  margin-bottom: 10px;
-}
-
-.user-comment {
-  line-height: 1.7;
-}
-
-.copyright-par {
-  margin: 0;
-  padding: 15px 0;
-  color: #000000;
+.hidden {
+  display: none;
 }

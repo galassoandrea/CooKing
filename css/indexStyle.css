@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  color: #F2F0D0;
+  position: relative;
+}
+
+button {
+  cursor: pointer;
+}
+
+#header {
+  text-align: center;
+  padding: 200px 0;
+  background: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#body {
+  padding: 60px 80px;
+  color: #000000;
+  text-align: center;
+}
+
+#footer {
+  background: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 280px 0;
+}
+
+#copyright {
+  text-align: center;
+}
+
+.big-logo {
+  width: 25%;
+}
+
+.subtitle {
+  margin: 0 0 50px 0;
+}
+
+.big-button {
+  font-size: 2rem;
+  color: #000000;
+  text-decoration: none;
+  background-color: #F2AC29;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.big-button:hover {
+  background-color: #F27979;
+}
+
+.function-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 80px;
+}
+
+.function-item {
+  margin: 10px 0;
+}
+
+.function-title {
+  font-size: 1.5rem;
+  color: #F27979;
+}
+
+.function-par {
+  font-size: 1.2rem;
+}
+
+.food-img {
+  width: 70%;
+  margin-top: 40px;
+}
+
+.share-img {
+  width: 55%;
+}
+
+.like-img {
+  width: 65%;
+}
+
+.separator {
+  border: dotted 7px #F2AC29;
+  border-bottom: none;
+  width: 10%;
+  margin: 120px auto;
+}
+
+.comments {
+  color: #F27979;
+  font-size: 1.8rem;
+  margin-bottom: 80px;
+}
+
+.comment-container {
+  display: flex;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.comment-card {
+  border: solid 2px #F2AC29;
+  width: 25%;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user-image {
+  width: 35%;
+  margin-bottom: 10px;
+}
+
+.footer-heading {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.username {
+  margin-bottom: 10px;
+}
+
+.user-comment {
+  line-height: 1.7;
+}
+
+.copyright-par {
+  margin: 0;
+  padding: 15px 0;
+  color: #000000;
+}

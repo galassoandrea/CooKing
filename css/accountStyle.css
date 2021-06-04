@@ -1,0 +1,87 @@
+span {
+  font-weight: bold;
+}
+
+.personal-info {
+  width: 800px;
+  padding: 40px 50px;
+  margin: 140px auto;
+  font-family: 'Merriweather', serif;
+  font-size: 1.2rem;
+  text-align: left;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info-heading {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.separator {
+  background-color: #F2AC29;
+  height: 3px;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.pass,
+.delete {
+  cursor: pointer;
+  background-color: #F2AC29;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  margin: 30px 10px 0 0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.change-pass {
+  display: flex;
+  flex-direction: column;
+}
+
+.pass-info {
+  margin: 20px 0 10px 0;
+}
+
+.password {
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.submit-pass,
+.submit-delete {
+  width: 250px;
+  cursor: pointer;
+  background-color: #F2AC29;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pass:hover,
+.submit-pass:hover,
+.delete:hover,
+.submit-delete:hover {
+  background-color: #F27979;
+}
+
+.hidden {
+  display: none;
+}
+
+.warning {
+  margin: 20px 0 0 0;
+  color: red;
+}
