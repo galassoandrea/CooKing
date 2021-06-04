@@ -15,10 +15,10 @@
 
   <div class="login-wrapper">
 
-    <form class="login" action="login.php" method="post">
+    <form name="login" class="login" action="login.php" method="post" onsubmit="return validateLogin()">
       <legend class="form-legend">Accedi</legend>
-      <input class="input-lg email" type="email" name="email" placeholder="E-mail" required>
-      <input class="input-lg password" type="password" name="password" placeholder="Password" required>
+      <input class="input-lg email" type="email" name="email" placeholder="E-mail">
+      <input class="input-lg password" type="password" name="password" placeholder="Password">
       <input class="submit-btn" name="submit" type="submit" name="submit" value="Accedi">
     </form>
 
@@ -58,6 +58,8 @@
   ?>
 
   </div>
+
+  <script src="javascript/loginRegisterHandler.js"></script>
 
 </body>
 

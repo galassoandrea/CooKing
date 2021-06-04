@@ -14,21 +14,21 @@
 
   <div class="register-wrapper">
 
-    <form class="register" action="register.php" method="post" enctype="multipart/form-data">
+    <form name="register" class="register" action="register.php" method="post" onsubmit="return validateRegistration()" enctype="multipart/form-data">
       <legend class="form-legend">Registrati</legend>
       <div class="flex-container">
         <div class="data-container">
-          <input class="input-rg name" type="text" name="name" placeholder="Nome" required>
-          <input class="input-rg surname" type="text" name="surname" placeholder="Cognome" required>
-          <input class="input-rg username" type="text" name="username" placeholder="Nome Utente" required>
-          <input class="input-rg email" type="email" name="email" placeholder="E-mail" required>
-          <input class="input-rg password" type="password" name="password" placeholder="Password" required>
+          <input class="input-rg name" type="text" name="name" placeholder="Nome">
+          <input class="input-rg surname" type="text" name="surname" placeholder="Cognome" >
+          <input class="input-rg username" type="text" name="username" placeholder="Nome Utente" >
+          <input class="input-rg email" type="email" name="email" placeholder="E-mail" >
+          <input class="input-rg password" type="password" name="password" placeholder="Password" >
         </div>
         <div class="photo-container">
           <label for="file-upload" class="custom-file-input"><i class="far fa-image"></i>
             Scegli un'immagine del profilo
           </label>
-          <input id="file-upload" class="file-upload" type="file" name="file" accept="image/png, image/jpeg" required />
+          <input id="file-upload" class="file-upload" type="file" name="file" accept="image/png, image/jpeg"  />
           <img class="hidden" id="target" />
           <p class="empty">Nessuna immagine selezionata al momento.</p>
         </div>
@@ -82,14 +82,14 @@
             }
           
         }
-        
-    }
+      }
   ?>
 
   </div>
 
 </body>
 
+<script src="javascript/loginRegisterHandler.js"></script>
 <script src="javascript/imageHandler.js"></script>
 
 </html>
